@@ -2,10 +2,11 @@
     <Source>
         <Name>ekiga</Name>
         <Packager>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-2.0</License>
+        <PartOf>network.clients</PartOf>
         <Summary xml:lang="en">Ekiga is an open source SoftPhone, Video Conferencing and Instant Messenger application.</Summary>
         <Description xml:lang="en">Ekiga is an open source SoftPhone, Video Conferencing and Instant Messenger application.
 </Description>
@@ -18,25 +19,40 @@
 </Description>
         <PartOf>network.clients</PartOf>
         <Files>
+            <Path fileType="config">/etc/gconf/schemas/ekiga.schemas</Path>
             <Path fileType="executable">/usr/bin</Path>
-            <Path fileType="library">/usr/lib64/ekiga</Path>
-            <Path fileType="data">/usr/share/pixmaps</Path>
+            <Path fileType="library">/usr/lib64/ekiga/4.0.1/libekiga.so</Path>
+            <Path fileType="library">/usr/lib64/ekiga/4.0.1/plugins/libgmavahi.so</Path>
+            <Path fileType="library">/usr/lib64/ekiga/4.0.1/plugins/libgmevolution.so</Path>
+            <Path fileType="library">/usr/lib64/ekiga/4.0.1/plugins/libgmlibnotify.so</Path>
+            <Path fileType="data">/usr/share/applications/ekiga.desktop</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/org.ekiga.Ekiga.service</Path>
+            <Path fileType="data">/usr/share/dbus-1/services/org.ekiga.Helper.service</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/ekiga.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/ekiga.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/22x22/apps/ekiga.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/24x24/apps/ekiga.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/ekiga.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/ekiga.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/ekiga.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/72x72/apps/ekiga.png</Path>
             <Path fileType="localedata">/usr/share/locale</Path>
-            <Path fileType="data">/usr/share/icons</Path>
             <Path fileType="man">/usr/share/man</Path>
-            <Path fileType="data">/usr/share/applications</Path>
-            <Path fileType="data">/usr/share/dbus-1</Path>
-            <Path fileType="data">/usr/share/sounds</Path>
-            <Path fileType="config">/etc/gconf/schemas</Path>
+            <Path fileType="data">/usr/share/pixmaps/ekiga/ekiga-logo.png</Path>
+            <Path fileType="data">/usr/share/sounds/ekiga/busytone.wav</Path>
+            <Path fileType="data">/usr/share/sounds/ekiga/dialtone.wav</Path>
+            <Path fileType="data">/usr/share/sounds/ekiga/newmessage.wav</Path>
+            <Path fileType="data">/usr/share/sounds/ekiga/ring.wav</Path>
+            <Path fileType="data">/usr/share/sounds/ekiga/voicemail.wav</Path>
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2016-03-09</Date>
+        <Update release="5">
+            <Date>2016-06-12</Date>
             <Version>4.0.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Ikey Doherty</Name>
-            <Email>ikey@solus-project.com</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
