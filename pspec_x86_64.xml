@@ -2,8 +2,8 @@
     <Source>
         <Name>ekiga</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
         </Packager>
         <License>GPL-2.0</License>
         <PartOf>network.clients</PartOf>
@@ -47,12 +47,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="6">
+        <Update release="7">
             <Date>2016-11-11</Date>
             <Version>4.0.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua@stroblindustries.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
         </Update>
     </History>
 </PISI>
