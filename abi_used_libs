@@ -8,7 +8,7 @@ libavahi-glib.so.1
 libboost_signals.so.1.62.0
 libc.so.6
 libdbus-glib-1.so.2
-libebook-1.2.so.16
+libebook-1.2.so.19
 libebook-contacts-1.2.so.2
 libedataserver-1.2.so.22
 libgcc_s.so.1
@@ -22,7 +22,7 @@ libgthread-2.0.so.0
 libgtk-x11-2.0.so.0
 libm.so.6
 libnotify.so.4
-libopal.so.3.10.10
+libopal.so.3.10.11
 libpango-1.0.so.0
 libpt.so.2.10.11
 libstdc++.so.6
