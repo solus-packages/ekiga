@@ -1,10 +1,10 @@
 name       : ekiga
 version    : 4.0.1
-release    : 8
+release    : 9
 source     :
     - http://ftp.gnome.org/pub/gnome/sources/ekiga/4.0/ekiga-4.0.1.tar.xz : 5f4f491c9496cf65ba057a9345d6bb0278f4eca07bcda5baeecf50bfcd9a4a3b
 license    : GPL-2.0
-component  : network.clients
+component  : network.im
 summary    : Ekiga is an open source SoftPhone, Video Conferencing and Instant Messenger
     application.
 description: |
@@ -32,7 +32,7 @@ builddeps  :
     - intltool
     - libboost-devel
 setup      : |
-    %configure --disable-static --disable-gdu --disable-ldap --disable-scrollkeeper --enable-dbus --enable-avahi --enable-stun
+    %reconfigure --disable-static --disable-gdu --disable-ldap --disable-scrollkeeper --enable-dbus --enable-avahi
 build      : |
     %make
 install    : |
