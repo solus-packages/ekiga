@@ -5,7 +5,7 @@ libatk-1.0.so.0
 libavahi-client.so.3
 libavahi-common.so.3
 libavahi-glib.so.1
-libboost_signals.so.1.62.0
+libboost_signals.so.1.65.1
 libc.so.6
 libdbus-glib-1.so.2
 libebook-1.2.so.19

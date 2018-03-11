@@ -2,8 +2,8 @@
     <Source>
         <Name>ekiga</Name>
         <Packager>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Packager>
         <License>GPL-2.0</License>
         <PartOf>network.im</PartOf>
@@ -47,12 +47,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="9">
-            <Date>2017-10-07</Date>
+        <Update release="10">
+            <Date>2018-03-09</Date>
             <Version>4.0.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Bryan T. Meyers</Name>
-            <Email>bmeyers@datadrake.com</Email>
+            <Name>Pierre-Yves</Name>
+            <Email>pyu@riseup.net</Email>
         </Update>
     </History>
 </PISI>
