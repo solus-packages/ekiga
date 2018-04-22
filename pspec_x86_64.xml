@@ -2,8 +2,8 @@
     <Source>
         <Name>ekiga</Name>
         <Packager>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Packager>
         <License>GPL-2.0</License>
         <PartOf>network.im</PartOf>
@@ -47,12 +47,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="11">
-            <Date>2018-03-30</Date>
+        <Update release="12">
+            <Date>2018-04-22</Date>
             <Version>4.0.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Pierre-Yves</Name>
-            <Email>pyu@riseup.net</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@stroblindustries.com</Email>
         </Update>
     </History>
 </PISI>
